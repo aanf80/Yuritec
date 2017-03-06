@@ -42,7 +42,7 @@
     <div class="row">&nbsp;</div>
 
     <button type="submit" class="btn btn-warning"><span class="glyphicon glyphicon-floppy-disk"></span> Guardar</button>
-    <button type="submit" class="btn btn-warning"><span class="glyphicon glyphicon-open-file"></span>Enviar para revisión</button>
+    <button type="submit" class="btn btn-warning"><span class="glyphicon glyphicon-open-file"></span> Enviar para revisión</button>
     <div class="row">&nbsp;</div>
 
 

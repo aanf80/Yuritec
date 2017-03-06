@@ -277,8 +277,8 @@
                     </div>
                 </div>
                 <div id="success"></div>
-                <button type="submit" class="btn btn-warning">Registrarse</button>
-                <button type="button" class="btn btn-warning">Cancelar</button>
+                <button type="submit" class="btn btn-warning"><span class="glyphicon glyphicon-floppy-save"></span> Registrarse</button>
+                <button type="clear" class="btn btn-warning"><span class="glyphicon glyphicon-floppy-remove"></span> Cancelar</button>
             </form>
         </div>
     </div>

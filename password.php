@@ -16,5 +16,4 @@
     <div class="row">&nbsp;</div>
     <button type="submit" class="btn btn-lg btn btn-warning"><span class="glyphicon glyphicon-floppy-save"></span> Guardar</button>
 
-</div>
-
+</div><

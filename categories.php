@@ -12,7 +12,7 @@
     <label>Nombre</label>
     <input type="text" class="form-control" id="txtClave" required>
     <div class="row">&nbsp;</div>
- 
+
     <button type="submit" class="btn btn-lg btn btn-warning"><span class="glyphicon glyphicon-floppy-save"></span> Guardar</button>
 
 </div>
