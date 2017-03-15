@@ -1,0 +1,4 @@
+CREATE TABLE `category`(
+ `categoryid` int(11)  NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  `categoryname` varchar(100) DEFAULT NULL 
+)ENGINE=InnoDB DEFAULT CHARSET=latin1;

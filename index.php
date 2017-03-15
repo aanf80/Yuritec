@@ -23,10 +23,13 @@
     <link href="css/modern-business.css" rel="stylesheet">
     <link href="css/bootstrap-datetimepicker.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css">
 
     <script type="text/javascript" src="js/pluggins/jquery.min.js"></script>
     <script type="text/javascript" src="js/pluggins/jquery.validate.js"></script>
-
+    <script type="text/javascript" src="js/pluggins/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src ="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
     <script src="js/pluggins/bootstrap.min.js"></script>
     <script src="//cloud.tinymce.com/stable/tinymce.min.js"></script>
     <script src="js/pluggins/jqBootstrapValidation.js"></script>
@@ -69,28 +72,9 @@
                     <li>
                         <a href="about.php">Acerca de</a>
                     </li>
-                    <li>
-                        <a href="contact.php">Contacto</a>
-                    </li>
-                    <li>
-                        <a href="copies.php">Ejemplares</a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Área Personal <b
-                                class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="profile.php">Datos personales</a>
-                            </li>
-                            <li>
-                                <a href="password.php">Seguridad</a>
-                            </li>
-
-                        </ul>
-                    </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Artículos <b
-                                class="caret"></b></a>
+                                    class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
                                 <a href="blog-home-1.html">Artículos enviados</a>
@@ -102,6 +86,9 @@
                                 <a href="blog-post.html">Blog Post</a>
                             </li>
                         </ul>
+                    </li>
+                    <li>
+                        <a href="contact.php">Contacto</a>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Configuraciones<b class="caret"></b></a>
@@ -121,8 +108,27 @@
                         </ul>
                     </li>
                     <li>
+                        <a href="copies.php">Ejemplares</a>
+                    </li>
+                    <li>
                         <a href="map.php">Mapa del Sitio</a>
                     </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mi Perfil <b
+                                class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="profile.php">Datos personales</a>
+                            </li>
+                            <li>
+                                <a href="password.php">Seguridad</a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+
+
                     <li>
                         <a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Iniciar Sesión</a>
                     </li>

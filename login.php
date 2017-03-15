@@ -6,6 +6,7 @@
  * Time: 11:45 AM
  */
 ?>
+<script src="js/app.js"></script>
 <div class="container">
 
     <!-- Page Heading/Breadcrumbs -->
@@ -13,7 +14,7 @@
         <div class="col-lg-12">
             <h3 class="page-header">Iniciar sesión</h3>
             <ol class="breadcrumb">
-                <li><a href="index.html">Inicio</a>
+                <li><a href="index.php">Inicio</a>
                 </li>
                 <li class="active">Iniciar sesión</li>
             </ol>
@@ -40,14 +41,22 @@
                         <button class="btn btn-lg btn-warning btn-block" type="submit">Iniciar sesión</button>
                         <div class="help-block"></div>
                     </div>
+
+
                     <div class="form-group">
                         <label class="checkbox pull-left" style="margin-left: 25px"><input type="checkbox" value="remember-me">Recordarme</label>
-                        <a href="#" class="pull-right clearfix" style="margin-top: 10px; margin-right: 5px">¿Olvidaste tú contraseña?</a>
+
+                        <div id="link">
+                            <a href="#" class="pull-right clearfix" style="margin-top: 10px; margin-right: 5px">¿Olvidaste tú contraseña?</a>
+                            <a href="signUp.php" class="text-center center-block col-lg-12">Registrarse </a>
+                        </div>
                     </div>
                 </form>
             </div>
+
+
         </div>
-        <a href="signUp.php" class="text-center center-block col-lg-12">Registrarse </a>
+
     </div>
     <hr>
 
