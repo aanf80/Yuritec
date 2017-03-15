@@ -24,6 +24,7 @@
     <link href="css/bootstrap-datetimepicker.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="css/sweetalert.css">
     <link rel="stylesheet" href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css">
 
     <script type="text/javascript" src="js/pluggins/jquery.min.js"></script>
@@ -34,6 +35,7 @@
     <script src="//cloud.tinymce.com/stable/tinymce.min.js"></script>
     <script src="js/pluggins/jqBootstrapValidation.js"></script>
     <script src="js/pluggins/Moment.js"></script>
+    <script src="js/pluggins/sweetalert.min.js"></script>
     <script src="js/pluggins/bootstrap-datetimepicker.js"></script>
 
     <script src="js/pluggins/bootstrap-datetimepicker.min.js"></script>

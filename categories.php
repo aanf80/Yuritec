@@ -10,6 +10,43 @@
 <div class="container">
     <h2>Apartados Temáticos</h2>
 
+    <div id="modalCategory" class="modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                        &times;
+                    </button>
+                    <h3>Modificar Categoria</h3>
+                </div>
+                <div class="modal-body">
+                    <form id="frmEditCategory">
+
+
+                        <div class="form-group">
+                            <label class="control-label" for="nombreCategoria2">Categoria</label>
+                            <div class="input-group">
+                                <span class="input-group-addon">
+                                    <i class="glyphicon glyphicon-user"></i>
+                                </span>
+                                <input class="form-control" id="nombreCategoria2" name="nombreCategoria2" placeholder="Nombre de la Categoria">
+                                <input type="hidden" id="categoryid" name="categoryid">
+                            </div>
+                        </div>
+
+
+                    </form>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-sm btn-primary" id="btnModificar">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <!-- Aqui inicia el formulario-->
     <div class="col-md-8">
         <form id="frmCategoria">
